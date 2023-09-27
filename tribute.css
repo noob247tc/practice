@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  background-image: url(https://www.wallpapertip.com/wmimgs/8-86645_dota-2-logo-hd.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#main{
+  max-width: 90%;
+  background-color: rgba(80,80,79, 75%);
+  margin: 25px auto;
+  padding: 100px;
+  border: 100% solid #010101;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+}
+
+
+#logo{
+  width: max(100px, 10vw);
+}
+header{
+  width: 100%;
+  height: 75px;
+  background-color: #2B2B2B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-size: 24px;
+}
+
+
+
+  
+
+nav{
+  width: 30%;
+ font-size: min(5vw, 1em);
+  color: white;
+
+ 
+}
+a:not(#tribute-link){
+ 
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 100px;
+
+  
+
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  }
+
+nav a:hover{
+  background-color: white;
+  cursor: pointer;
+  color: black;
+
+
+}
+nav ul{
+ 
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+
+ 
+
+}
+h1{
+  text-align: center;
+  color: #F2F2C1;
+  font-size: 2.5rem;
+}
+#image{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+.flex-images{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.flex-images img{
+  
+   width: 100%;
+  max-width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#img-caption{
+  text-align: center;
+  width: 100%;
+  color: #F2F2C1;
+
+}
+h2{
+  color: #72726F;
+  font-weight: 900;
+  padding-top: 30px;
+  
+}
+p{
+  color: #F2F2C1;
+  
+}
+h3:not(.no-margin){
+  margin-top: -50px;
+}
+
+#tribute-link{
+  text-decoration: none;
+ color: blue;
+}
